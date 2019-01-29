@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  avatar: MyString
-  avatar_cache: MyString
+  image: MyString
 
 two:
   name: MyString
-  avatar: MyString
-  avatar_cache: MyString
+  image: MyString

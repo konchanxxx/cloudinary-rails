@@ -6,13 +6,8 @@
 </p>
 
 <p>
-  <strong>Avatar:</strong>
-  <%= @user.avatar %>
-</p>
-
-<p>
-  <strong>Avatar cache:</strong>
-  <%= @user.avatar_cache %>
+  <strong>Image:</strong>
+  <%= image_tag(@user.image_url(:thumbnail)) %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
